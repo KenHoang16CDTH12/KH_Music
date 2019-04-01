@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.SwipeRefreshLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/swipeLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ss.com.bannerslider.Slider
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/dp_200"
+            app:layout_constraintTop_toTopOf="parent"
+            app:slider_interval="10000"
+            app:slider_loopSlides="true"
+            />
+
+        <TextView
+            android:id="@+id/textTitleMusic"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/dp_8"
+            android:layout_marginTop="@dimen/dp_8"
+            android:text="@string/text_all_music"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/slider"
+            style="@style/Text16BoldWhite"
+            />
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/recyclerMusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/dp_8"
+            app:layout_constraintTop_toBottomOf="@+id/textTitleMusic"
+            />
+    </android.support.constraint.ConstraintLayout>
+</android.support.v4.widget.SwipeRefreshLayout>

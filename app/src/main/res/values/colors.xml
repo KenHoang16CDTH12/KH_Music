@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#f64028</color>
+    <color name="colorPrimaryDark">#bb0000</color>
+    <color name="colorAccent">#ff7654</color>
+    <color name="colorProgress">#cecece</color>
+
+    <color name="backgroundRed">#f64028</color>
+    <color name="textSongWhite">#f8f8f8</color>
+    <color name="textAuthorGrey">#a8a8a8</color>
+    <color name="buttonColorGrey">#BBBBBB</color>
+    <color name="textHover">#6b79e6</color>
+    <color name="colorBorderGrey">#a8a8a8</color>
+</resources>

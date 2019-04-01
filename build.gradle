@@ -1,0 +1,53 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+
+buildscript {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:3.3.2'
+        
+        // NOTE: Do not place your application dependencies here; they belong
+        // in the individual module build.gradle files
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
+
+// Define versions in a single place
+ext {
+    // Sdk and tools
+    minSdkVersion = 18
+    targetSdkVersion = 28
+    compileSdkVersion = 28
+
+    // App dependencies
+    supportLibraryVersion = '28.0.0'
+    constraintlayout = '1.1.3'
+    guavaVersion = '18.0'
+    junitVersion = '4.12'
+    mockitoVersion = '1.10.19'
+
+    // App libraries
+    calligraphy = '2.3.0'
+    bannerslider = '2.0.0'
+    spotsdialog = '1.1'
+    circleimageview = '2.2.0'
+    kenburnsview = '1.0.7'
+    diagonallayout = '1.0.9'
+    coverflow = '1.0'
+    circularseekbar = '1.1.4'
+    cyclemenu = '1.0.2'
+}

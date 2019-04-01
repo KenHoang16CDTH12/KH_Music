@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Sun*</string>
+    <string name="slogan"><b>Make awesome things</b>\nthat matter.</string>
+    <!--Menu title-->
+    <string name="title_home">Home</string>
+    <string name="title_my_library">Library</string>
+    <string name="title_setting">Setting</string>
+    <string name="title_search">Search</string>
+    <string name="title_play_list">Playlist</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="title_camera">Camera</string>
+    <string name="title_download">Download</string>
+    <string name="title_share">Share</string>
+    <!--Sub title-->
+    <string name="sub_title_slogan">playing music</string>
+    <!--Text-->
+    <string name="text_name_song">Name of songs</string>
+    <string name="text_name_author">Name of author</string>
+    <string name="text_all_music">All music</string>
+    <string name="text_show_all">Show all</string>
+    <string name="text_all_audio">All audio</string>
+    <string name="text_waiting">Please waiting…</string>
+    <string name="text_coming_soon">Coming soon!</string>
+    <string name="text_mock_time">00:00</string>
+    <string name="text_number_tracks">Tracks (%d)</string>
+    <string name="text_count">00</string>
+    <string name="text_downloading">Downloading</string>
+    <string name="text_change">Change</string>
+    <string name="text_ok">OK</string>
+    <string name="text_req_reason_write_external">We need write external storage permission to save your location to file</string>
+    <string name="text_req_reason_read_external">We need read external storage permission to save your location to file</string>
+    <string name="text_rejected_msg">Permission denied!</string>
+    <!-- Accessibility button description -->
+    <string name="btn_play">Play</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_play_pause">Play/Pause</string>
+    <string name="btn_skip">Skip</string>
+    <string name="btn_prev">Previous</string>
+    <string name="fav_add">Favorite</string>
+    <!--Notify-->
+    <string name="notify_play_track_error">Play track failed!</string>
+</resources>

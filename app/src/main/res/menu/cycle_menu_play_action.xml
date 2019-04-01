@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/actionShare"
+        android:icon="@drawable/ic_share_red_24dp"
+        android:title="@string/title_share"/>
+    <item
+        android:id="@+id/actionDownload"
+        android:icon="@drawable/ic_file_download_red_24dp"
+        android:title="@string/title_download"/>
+    <item
+        android:id="@+id/actionCamera"
+        android:icon="@drawable/ic_camera_alt_red_24dp"
+        android:title="@string/title_camera"/>
+    <item
+        android:id="@+id/actionFavorite"
+        android:icon="@drawable/ic_favorite_red_24dp"
+        android:title="@string/title_favorite"/>
+</menu>
